@@ -112,9 +112,4 @@ public class MovieDTO {
             """.formatted("_".repeat(50),getTitle(),getGenre(),getDirector(),getReleaseYear(),
             getRating(),getDuration(),getLanguage(),getBoxOfficeGross(),"_".repeat(50));
     }
-
-    // public static void main(String[] args) {
-    //     MovieDTO movie1=new MovieDTO("Naan Thaan Da", "Action", "Anil Ravipudi", 2024, 5.4, 174, "Telugu", 10000000000.00);
-    //     System.out.println(movie1);
-    // }
 }
