@@ -111,9 +111,4 @@ public class FlightDTO {
             """.formatted("_".repeat(50),getFlightNumber(),getAirline(),getOrigin(),getDestination(),
             getDepartureTime(),getArrivalTime(),getPrice(),getSeatsAvailable(),"_".repeat(50));
     }
-
-    // public static void main(String[] args) {
-    //     FlightDTO flight1=new FlightDTO("AIR256", "Air India", "India", "France", "10.00", "19.30",17016.00, 100);
-    //     System.out.println(flight1);
-    // }
 }
