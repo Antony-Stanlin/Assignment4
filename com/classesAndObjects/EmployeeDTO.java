@@ -118,9 +118,4 @@ public class EmployeeDTO {
             """.formatted("_".repeat(40),getId(),getName(),getPosition(),getDepartment(),getSalary(),getMaskedSocialSecurityNumber(),getMaskedPhoneNumber(),getEmail(),"_".repeat(40));
     }
 
-    // public static void main(String[] args) {
-    //     EmployeeDTO employeeDTO=new EmployeeDTO(123,"Antony","MTM","Software",50000.00,"12345456","1234567890","Antony@zohocorp.in");
-    //     System.out.println(employeeDTO);
-    // }
-
 }
